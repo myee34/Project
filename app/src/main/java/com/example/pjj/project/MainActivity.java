@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         walkData = new WalkData(this);
 
-        SimpleDateFormat fm1 = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat fm1 = new SimpleDateFormat("yy-MM-dd");
         String date = fm1.format(new Date());
 
         sql = walkData.getWritableDatabase();
